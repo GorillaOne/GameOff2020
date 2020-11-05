@@ -379,6 +379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df1864d9dfa570b4ab01cf40c30d2e76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_secondsBetweenBeat: 0
-  m_startOffset: 0
-  m_threshold: 0
+  m_secondsBetweenBeat: 2
+  m_startOffset: 1.8
+  m_threshold: 0.25
