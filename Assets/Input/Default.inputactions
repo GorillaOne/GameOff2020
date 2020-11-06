@@ -6,7 +6,7 @@
             "id": "d221a8bc-5b90-49dc-a3f9-3ade95b5bd96",
             "actions": [
                 {
-                    "name": "Menu",
+                    "name": "OpenMenu",
                     "type": "Button",
                     "id": "99bc9e3f-fb25-46c3-b470-c6180ff41dc7",
                     "expectedControlType": "Button",
@@ -22,7 +22,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Menu",
+                    "action": "OpenMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -33,7 +33,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Menu",
+                    "action": "OpenMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

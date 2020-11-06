@@ -60,13 +60,24 @@
     <Compile Include="Assets\Scripts\BeatManager.cs" />
     <Compile Include="Assets\Scripts\SceneControllers\MainSceneController.cs" />
     <Compile Include="Assets\States\VariableScripts\MainSceneVars.cs" />
+    <Compile Include="Assets\Scripts\SceneControllers\MainSceneController.Input.cs" />
+    <Compile Include="Assets\Scripts\InGameMenuController.cs" />
+    <Compile Include="Assets\GorillaTactics\Factories\IDestroyable.cs" />
+    <Compile Include="Assets\GorillaTactics\Bolt\WaitForSequence.cs" />
+    <Compile Include="Assets\GorillaTactics\Factories\GameObjectFactory.cs" />
+    <Compile Include="Assets\GorillaTactics\Factories\IResettable.cs" />
+    <Compile Include="Assets\GorillaTactics\Bolt\WaitForAsync.cs" />
+    <Compile Include="Assets\GorillaTactics\DOTween\DotweenExtensions.cs" />
+    <Compile Include="Assets\Scripts\SimpleShowHideAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
      <None Include="Assets\Ludiq\Bolt\Documentation\0. READ ME FIRST.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Runtime.dll" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Platforms.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\mscorlib.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Security.xml" />
@@ -80,13 +91,16 @@
      <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Runtime.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.Core.Runtime.xml" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Graphs.Runtime.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.Design.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.Web.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.State.Runtime.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.Design.xml" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Core.Runtime.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.Core.Editor.dll" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\Ludiq\Assemblies\YamlDotNet.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\Ludiq\Assemblies\MiscUtil.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Printing.xml" />
      <None Include="Assets\Install Bolt\README.txt" />
@@ -94,6 +108,7 @@
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Management.Instrumentation.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Services.Client.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Services.Design.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Remoting.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Editor.xml" />
      <None Include="Assets\Ludiq\Bolt\LICENSES.txt" />
@@ -109,18 +124,27 @@
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Linq.xml" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Graphs.Editor.dll" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.DynamicData.Design.xml" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Ludiq\Assemblies\YamlDotNet.dll" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Core.Editor.dll" />
      <None Include="Assets\Ludiq\Assemblies\Ionic.Zip.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.Core.Runtime.dll" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.DynamicData.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceProcess.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Platforms.dll" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.EnterpriseServices.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.IdentityModel.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.VisualC.STLCLR.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Deployment.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Transactions.xml" />
@@ -128,15 +152,19 @@
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Forms.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Editor.dll" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Services.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.State.Runtime.dll" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.DataSetExtensions.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.State.Editor.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Serialization.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Services.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.WorkflowServices.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.Contract.xml" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Core.Runtime.dll" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.DirectoryServices.AccountManagement.xml" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Ludiq\Assemblies\Antlr3.Runtime.dll" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Serialization.Formatters.Soap.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.xml" />
@@ -144,10 +172,12 @@
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Abstractions.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Drawing.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Net.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.SqlXml.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Presentation.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Xml.xml" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Graphs.Runtime.dll" />
     <Reference Include="UnityEngine">
@@ -383,6 +413,15 @@
     </Reference>
     <Reference Include="YamlDotNet">
       <HintPath>Assets\Ludiq\Assemblies\YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.11f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -791,6 +830,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{5266BF17-A79B-4CC7-CE4E-C70DE8576712}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

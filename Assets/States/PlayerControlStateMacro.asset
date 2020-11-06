@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1083378141, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: PlayerControlStateMacro
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":"Player Control","summary":null,"pan":{"x":-465.0,"y":-165.5},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":231.0,"y":-24.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":-215.0},"guid":"b100f039-7a1b-40c7-b198-c3aa56aaeb73","$version":"A","$type":"Bolt.OnEnterState","$id":"13"},{"coroutine":false,"defaultValues":{},"position":{"x":-161.0,"y":-38.0},"guid":"25ff613f-b501-405a-8136-3bc3e8f265e7","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":145.0},"guid":"0489f299-0802-4bb7-8c2c-ae54b9a8897b","$version":"A","$type":"Bolt.OnExitState"},{"argumentCount":0,"defaultValues":{"name":{"$content":"PlayerControlStateGraphEntered","$type":"System.String"},"target":null},"position":{"x":44.0,"y":-216.0},"guid":"f8f38bbb-0973-42c9-a1f4-b9ff1841bb74","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"19"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"2ded80d6-2865-4cbc-9469-b1abc1232789","$type":"Bolt.ControlConnection"}],"$version":"A"}},"isStart":true,"position":{"x":-550.0,"y":-224.0},"width":170.0,"guid":"cf95d9e0-4571-4bde-8fc0-865ad3510b3c","$version":"A","$type":"Bolt.FlowState"}],"$version":"A"}}'
+    _objectReferences: []
