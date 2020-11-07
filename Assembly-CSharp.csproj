@@ -56,19 +56,20 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Scripts\BeatManager.cs" />
-    <Compile Include="Assets\Scripts\SceneControllers\MainSceneController.cs" />
-    <Compile Include="Assets\States\VariableScripts\MainSceneVars.cs" />
-    <Compile Include="Assets\Scripts\SceneControllers\MainSceneController.Input.cs" />
-    <Compile Include="Assets\Scripts\InGameMenuController.cs" />
     <Compile Include="Assets\GorillaTactics\Factories\IDestroyable.cs" />
+    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\GorillaTactics\Bolt\WaitForSequence.cs" />
+    <Compile Include="Assets\Scripts\SceneControllers\MainSceneController.cs" />
     <Compile Include="Assets\GorillaTactics\Factories\GameObjectFactory.cs" />
     <Compile Include="Assets\GorillaTactics\Factories\IResettable.cs" />
     <Compile Include="Assets\GorillaTactics\Bolt\WaitForAsync.cs" />
-    <Compile Include="Assets\GorillaTactics\DOTween\DotweenExtensions.cs" />
+    <Compile Include="Assets\Scripts\BeatManager.cs" />
     <Compile Include="Assets\Scripts\SimpleShowHideAnimator.cs" />
+    <Compile Include="Assets\GorillaTactics\DOTween\DotweenExtensions.cs" />
+    <Compile Include="Assets\States\VariableScripts\MainSceneVars.cs" />
+    <Compile Include="Assets\Scripts\SceneControllers\MainSceneController.Input.cs" />
+    <Compile Include="Assets\Scripts\InGameMenuController.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
