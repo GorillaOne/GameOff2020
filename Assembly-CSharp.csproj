@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\InGameMenuController.cs" />
     <Compile Include="Assets\Scripts\SongData.cs" />
     <Compile Include="Assets\Scripts\Song.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />

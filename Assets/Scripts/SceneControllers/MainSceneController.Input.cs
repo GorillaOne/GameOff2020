@@ -32,6 +32,15 @@ public partial class MainSceneController
 			CustomEvent.Trigger(gameObject, context.action.name); 
 		}
 	}
+
+	public void InputManager_Player_Move(CallbackContext context)
+	{
+		if (context.performed)
+		{
+			Vector2 val = context.ReadValue<Vector2>(); 
+			CustomEvent.Trigger(gameObject, context.action.name, val); 
+		}
+	}
 	#endregion
 
 	#region InGameMenu Action Map

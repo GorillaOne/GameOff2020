@@ -15,5 +15,4 @@ public partial class MainSceneController : MonoBehaviour
 	{
 		SubscribeToInput(); 
 	}
-
 }

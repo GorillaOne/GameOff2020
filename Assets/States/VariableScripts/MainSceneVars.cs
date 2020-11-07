@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class MainSceneVars : MonoBehaviour
 {
-	public InGameMenuController InGameMenu; 
+	public InGameMenuController InGameMenu;
+	public PlayerController Player;
 }
