@@ -123,6 +123,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1036175653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1036175654}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1036175654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036175653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339308179
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,6 +280,7 @@ GameObject:
   - component: {fileID: 1572636488}
   - component: {fileID: 1572636489}
   - component: {fileID: 1572636490}
+  - component: {fileID: 1572636491}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -379,6 +410,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df1864d9dfa570b4ab01cf40c30d2e76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_secondsBetweenBeat: 2
-  m_startOffset: 1.8
-  m_threshold: 0.25
+  m_audioSourceObject: {fileID: 1572636487}
+  m_threshold: 0.15
+  m_beatDivisor: 4
+  m_countBeats: 15
+  m_lookAheadTime: 50
+--- !u!114 &1572636491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572636487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57edc6f338c6a15489d5d77c4807644a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_songData: {fileID: 11400000, guid: fc0839d08b8f5734293d1ac42e5ab7a7, type: 2}
